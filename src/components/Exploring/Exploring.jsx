@@ -9,7 +9,7 @@ const images = Array.from({ length: 24 }, (_, i) => {
 
 export const Exploring = () => {
   const [activeImage, setActiveImage] = useState(1);
-  const [currentFrame] = useState({ i: 0 });
+  const [currentFrame] = useState({ i: 1 });
 
   // const imagesSections = gsap.utils.toArray(".max-image");
 
@@ -24,15 +24,15 @@ export const Exploring = () => {
             setActiveImage(1);
             return;
           }
-          setActiveImage(Math.ceil(currentFrame.i));
+          setActiveImage(Math.ceil(currentFrame.i) + 1);
         }
       },
       scrollTrigger: {
         start: "26% center",
         target: ".stuff",
         end: "+=800",
-        pin: true,
-        scrub: 2,
+        pin: false,
+        scrub: 1,
       },
     });
 
@@ -73,7 +73,8 @@ export const Exploring = () => {
         </h2>
         <div className="animation overflow-hidden">
           <img
-            src={`/max-images/max-${activeImage}.png`}
+            loading="eager"
+            src={`/max-images/max-${currentFrame.i}.png`}
             className="w-[1200px]  max-image"
           />
         </div>
