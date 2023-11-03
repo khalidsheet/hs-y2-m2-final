@@ -1,7 +1,6 @@
 import "./App.css";
 import { BuyNow } from "./components/BuyNow/BuyNow";
 import { Exploring } from "./components/Exploring/Exploring";
-import { FAQs } from "./components/FAQs/FAQs";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
@@ -15,7 +14,6 @@ function App() {
       <Exploring />
       <BuyNow />
       <Testimonials />
-      <FAQs />
       <Footer />
     </>
   );

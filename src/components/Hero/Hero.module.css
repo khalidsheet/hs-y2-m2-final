@@ -1,5 +1,5 @@
 .heroContainer {
-  @apply bg-gradient-to-t from-purple-100 flex items-center justify-center flex-col pt-10 gap-y-1;
+  @apply bg-gradient-to-t from-purple-200 flex items-center justify-center flex-col pt-10 gap-y-1;
   height: calc(80vh);
   max-height: 800px;
   transition: all 0.4s ease-in-out;
