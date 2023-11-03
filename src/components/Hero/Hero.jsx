@@ -16,13 +16,16 @@ export const Hero = () => {
       bottom: -200,
       position: "absolute",
       scale: 1,
+      zIndex: -1,
       duration: 2,
     });
   }, []);
 
   return (
     <div className={styles.heroContainer}>
-      <p className="text-xl text-gray-600">One of the best headphones ever!</p>
+      <p className="z-1 text-xl text-gray-600">
+        One of the best headphones ever!
+      </p>
       <div id="head-line" className="text-5xl max-w-2xl font-bold text-center">
         Listen in Luxury With Our Premium AirPods Max
       </div>
