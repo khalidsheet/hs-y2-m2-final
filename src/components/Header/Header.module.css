@@ -1,0 +1,21 @@
+.navigation {
+  color: #aaaaaa;
+}
+
+.navigation ul li a {
+  @apply text-xl;
+}
+
+.navigation ul li a.active {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navigation ul li a.active::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #000000;
+  margin: 2px auto;
+}
