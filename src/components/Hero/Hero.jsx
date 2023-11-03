@@ -26,7 +26,10 @@ export const Hero = () => {
       <p className="z-1 text-xl text-gray-600">
         One of the best headphones ever!
       </p>
-      <div id="head-line" className="text-5xl max-w-2xl font-bold text-center">
+      <div
+        id="head-line"
+        className="text-3xl px-4 sm:text-5xl max-w-2xl font-bold text-center"
+      >
         Listen in Luxury With Our Premium AirPods Max
       </div>
       <img className={styles.heroImage} id="tezak" src={AirpodMax} alt="" />

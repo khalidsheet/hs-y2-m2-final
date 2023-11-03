@@ -67,7 +67,7 @@ export const Exploring = () => {
 
   return (
     <>
-      <div className="stuff w-full h-[1200px] bg-black  flex items-center justify-center flex-col gap-y-40 overflow-hidden">
+      <div className="stuff px-12 sm:p-0 w-full h-[1200px] bg-black  flex items-center justify-center flex-col gap-y-40 overflow-hidden">
         <h2 className="text-white text-5xl max-w-[800px] text-center">
           Exploring the world best AirPods, Unleash true wireless freedom.
         </h2>
@@ -75,7 +75,7 @@ export const Exploring = () => {
           <img
             loading="eager"
             src={`/max-images/max-${currentFrame.i}.png`}
-            className="w-[1200px]  max-image"
+            className=" w-[2200px] sm:w-[1200px]  max-image"
           />
         </div>
       </div>

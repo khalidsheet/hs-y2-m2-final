@@ -9,7 +9,7 @@ export const Header = () => {
   };
 
   return (
-    <div className="bg-white text-white h-[60px] flex items-center justify-between px-20">
+    <div className="bg-white text-white h-[60px] sm:flex items-center justify-between hidden p-0">
       <div>logo</div>
       <div className={styles.navigation}>
         <ul className="flex gap-4">

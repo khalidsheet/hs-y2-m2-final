@@ -8,9 +8,9 @@
 }
 
 .heroImage {
-  height: 120%;
   min-height: 50%;
   margin-top: 24px;
+  @apply h-[100%] sm:h-[120%];
 }
 
 .mainCTA {
